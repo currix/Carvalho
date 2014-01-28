@@ -6,6 +6,8 @@
 ## clf
 ##
 ##
+## Verbosity flag
+global iprint = 1;
 ##
 ##
 ## Physical constants
