@@ -1,8 +1,6 @@
 ##   basic_definitions.m
 ##
-##   Basic definitions and launcher for the set of programs solving the 1D TISE for a symmetric potential
-##     
-## by Currix TM
+##   by Currix TM
 ##
 ## Uncomment to Clear figure
 ## clf
@@ -17,8 +15,7 @@ global hbarc = 197.32858; # MeV fm
 global amu = 938.92635;   # MeV / c^2
 global hsqoamu = 41.4713768; # MeV fm^2 
 ##
-##
-## Define global variables characterizing the 1D system
+
 ## Spatial grid
 global xmin = -35; # (fm)
 global xmax = 35;  # (fm)
@@ -70,7 +67,6 @@ if ( iprint >= 1 )
   printf(" V_pt = %f MeV, a_pt = %f fm \n", V_pt, a_pt);
   printf(" match point = %d, x_M = %f fm\n", match_p, xgrid(match_p))
 endif
-##
 ##
 ## Matrix diagonalization states
 global eigenvectors_file = "ho_eigenvectors_N120.dat";
