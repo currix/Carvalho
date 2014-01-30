@@ -10,12 +10,6 @@
 global iprint = 1;
 ##
 ##
-## Physical constants
-global hbarc = 197.32858; # MeV fm
-global amu = 938.92635;   # MeV / c^2
-global hsqoamu = 41.4713768; # MeV fm^2 
-##
-
 ## Spatial grid
 global xmin = -35; # (fm)
 global xmax = 35;  # (fm)
